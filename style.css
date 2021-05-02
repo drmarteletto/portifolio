@@ -429,6 +429,7 @@ header{
     height: 35rem;
     display: flex;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .contato-left{
@@ -437,12 +438,14 @@ header{
         linear-gradient(rgba(15,15,15,0.6), rgba(22,22,22,0.9)),
         url(imagens/contato.jpg);
     background-size: cover;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .contato-right{
     width: 65%;
     background-color: #eee;
     padding: 1rem 3rem 3rem 3rem;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .sessao-contato h1{
